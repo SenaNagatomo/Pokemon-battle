@@ -1,4 +1,4 @@
-#ポケモンを作る
+#pokeapiの情報からポケモンを作る
 #ポケモンの名前、レベル、タイプ、実数値をクラスにまとめる
 import random
 import requests
@@ -28,7 +28,7 @@ class Make_pokemon:
             self.moves.append(move["name"])
         
         self.move_list = None
-        
+
 
     def status(self):
         print("名前:", self.name, "タイプ:", self.type)
